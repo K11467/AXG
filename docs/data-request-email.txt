@@ -1,0 +1,32 @@
+Subject: Request for AXG-Reasoner processed data and feature extraction details
+To: lee.shih@northeastern.edu
+
+Dear Dr. Lee,
+
+I would like to evaluate and reproduce AXG-Reasoner: Error Detection and Explanation in Long Task Videos with Vision-Language Models. I have cloned the official repository and am preparing a small-scale run using Qwen2.5-VL-7B-Instruct on a 24GB GPU.
+
+My information (to be completed before sending):
+- Full name: [YOUR FULL NAME]
+- Institution/organization: [YOUR INSTITUTION OR ORGANIZATION]
+- Advisor/supervisor: [NAME, OR NOT APPLICABLE]
+- Position/title: [YOUR POSITION]
+- Institutional email: [YOUR EMAIL]
+- Purpose: [YOUR EVALUATION/RESEARCH PURPOSE]
+
+Could you please share the processed data for CaptainCook4D Spiced Hot Chocolate, or the access procedure? In particular:
+- action2idx.json and clean_action_dict.json;
+- training/test splits and frame-wise labels;
+- frame-wise action/object-state captions;
+- pre-extracted frame features and their frame/timestamp convention;
+- prepared subaction features/AXGs, if available.
+
+I also hope to clarify the visual feature extractor. The AXG paper describes an Ego4D-pretrained TimeSformer, while the related GTG2Vid paper describes Ego4D-pretrained VideoCLIP and the code uses vc_v_features_10fps. Could you identify the exact encoder checkpoint, extraction code, temporal window/stride, feature normalization and output dimension used for AXG-Reasoner? Environment/package versions would also help.
+
+I understand that the small 7B run will not reproduce the original 32B benchmark scores. I will label any changes to models, preprocessing and evaluation protocol explicitly.
+
+Thank you for your help and for releasing the implementation.
+
+Best regards,
+[YOUR NAME]
+
+LOCAL DRAFT ONLY: Not sent. The user's personal/institutional details have not been inferred or filled in.
